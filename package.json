@@ -1,4 +1,7 @@
 {
-  "name": "modules-system",
-  "packageManager": "yarn@4.4.1"
+  "name": "modules",
+  "packageManager": "yarn@4.4.1",
+  "workspaces": [
+    "packages/*"
+  ]
 }
